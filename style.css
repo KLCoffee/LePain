@@ -7,10 +7,35 @@ body {
 }
 
 #showcase {
-    background-image: url("header.jpg");
+    background-image: url("Images 2/header.jpg");
     height: 95vh;
     background-size: cover;
     background-position: center;
     color: #fff
+}
+
+/* Commonly used breakpoint width (768px)can be found on Bootstrap*/
+@media (max-width: 768px) {
+    #showcase {
+        padding: 0 100px;
+    }
+
+    @media (min-width: 992px) {
+        .card-text {
+            height: 110px;
+        }
+        
+    }
+    @media (min-width: 1200 px) {
+        .card-text {
+            height: 90px
+        }
+    }
+    @media (min-width: 1400 px) {
+        .card-text {
+            height: 70px
+        }
+    }
+    
 }
 
